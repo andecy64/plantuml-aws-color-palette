@@ -1,4 +1,4 @@
-# PlantUML AWS Colors
+# PlantUML AWS Color Palette
 
 The purpose of this project is to provide
 a set of PlantUML variables containing
