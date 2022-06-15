@@ -86,7 +86,7 @@
 !endif
 ''' Light scheme block end
 
-!if ($scheme=="dark")
+!elseif ($scheme=="dark")
 
 !if ($colorname=="bg1")
 !$color = BG_BASE01_DARK
