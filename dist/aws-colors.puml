@@ -1,0 +1,142 @@
+@startuml
+
+!define BG_BASE01_DARK #232F3C
+!define BG_BASE02_DARK #3B4C59
+!define BG_BASE03_DARK #4E5862
+!define BG_BASE04_DARK #49565A
+
+!define BG_BASE01_LIGHT #FAFAFA
+!define BG_BASE02_LIGHT #EAEAE9
+!define BG_BASE03_LIGHT #E6F2F8
+!define BG_BASE04_LIGHT #EFF0F3
+
+!define FG_BASE01_DARK #8FA8C2
+!define FG_BASE02_DARK #FAFAFA
+
+!define FG_BASE01_LIGHT #5A6D84
+!define FG_BASE02_LIGHT #23303D
+
+!define ORANGE_DARK #FD9831
+!define RED_DARK #F95B53
+!define PINK_DARK #FC558B
+!define PURPLE_DARK #9D71F9
+!define BLUE_DARK #4E86F9
+!define CYAN_DARK #22A3C4
+!define TURQUOISE_DARK #5CBFA8
+!define GREEN_DARK #70AB4A
+
+!define ORANGE_LIGHT #D6662A
+!define RED_LIGHT #D32A35
+!define PINK_LIGHT #CA2B64
+!define PURPLE_LIGHT #6547C0
+!define BLUE_LIGHT #3551C7
+!define CYAN_LIGHT #1780B6
+!define TURQUOISE_LIGHT #247A68
+!define GREEN_LIGHT #448430
+
+' Scheme refers to dark/light colors
+!function AWSColor($colorname, $scheme)
+
+!if ($scheme=="light")
+
+''' Light scheme block
+
+!if ($colorname=="bg1")
+!$color = BG_BASE01_LIGHT
+
+!elseif ($colorname=="bg2")
+!$color = BG_BASE02_LIGHT
+
+!elseif ($colorname=="bg3")
+!$color = BG_BASE03_LIGHT
+
+!elseif ($colorname=="bg4")
+!$color = BG_BASE04_LIGHT
+
+!elseif ($colorname=="fg1")
+!$color = FG_BASE01_LIGHT
+
+!elseif ($colorname=="fg2")
+!$color = FG_BASE02_LIGHT
+
+!elseif ($colorname=="orange")
+!$color = ORANGE_LIGHT
+
+!elseif ($colorname=="red")
+!$color = RED_LIGHT
+
+!elseif ($colorname=="pink")
+!$color = PINK_LIGHT
+
+!elseif ($colorname=="purple")
+!$color = PURPLE_LIGHT
+
+!elseif ($colorname=="blue")
+!$color = BLUE_LIGHT
+
+!elseif ($colorname=="cyan")
+!$color = CYAN_LIGHT
+
+!elseif ($colorname=="turquoise")
+!$color = TURQUOISE_LIGHT
+
+!elseif ($colorname=="green")
+!$color = GREEN_LIGHT
+
+!endif
+''' Light scheme block end
+
+!if ($scheme=="dark")
+
+!if ($colorname=="bg1")
+!$color = BG_BASE01_DARK
+
+!elseif ($colorname=="bg2")
+!$color = BG_BASE02_DARK
+
+!elseif ($colorname=="bg3")
+!$color = BG_BASE03_DARK
+
+!elseif ($colorname=="bg4")
+!$color = BG_BASE04_DARK
+
+!elseif ($colorname=="fg1")
+!$color = FG_BASE01_DARK
+
+!elseif ($colorname=="fg2")
+!$color = FG_BASE02_DARK
+
+!elseif ($colorname=="orange")
+!$color = ORANGE_DARK
+
+!elseif ($colorname=="red")
+!$color = RED_DARK
+
+!elseif ($colorname=="pink")
+!$color = PINK_DARK
+
+!elseif ($colorname=="purple")
+!$color = PURPLE_DARK
+
+!elseif ($colorname=="blue")
+!$color = BLUE_DARK
+
+!elseif ($colorname=="cyan")
+!$color = CYAN_DARK
+
+!elseif ($colorname=="turquoise")
+!$color = TURQUOISE_DARK
+
+!elseif ($colorname=="green")
+!$color = GREEN_DARK
+
+''' Dark scheme block start
+
+!endif
+
+!endif
+
+!return $color
+!endfunction
+
+@enduml
