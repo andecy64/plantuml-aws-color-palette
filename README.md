@@ -36,7 +36,7 @@ SHOW_LEGEND()
 @enduml
 ```
 
-![example](example/unicorns.svg)
+![example](https://raw.githubusercontent.com/coregen/plantuml-aws-color-palette/master/examples/unicorns.svg)
 
 ## Available Colors
 
