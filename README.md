@@ -63,4 +63,3 @@ For each scheme, the following colors are available
 * green
 
 [aws-color-palette-article]: https://adrian.simionov.io/aws/2020/04/24/aws-color-palette.html
-!function AWSColor($colorname, $scheme)
