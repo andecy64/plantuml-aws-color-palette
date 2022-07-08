@@ -18,7 +18,7 @@ by Adrian Simionov.
 Example using C4-PlantUML
 
 <p align="center">
-  <img width="577" height="358" src="https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg">
+  <img src="https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg">
 </p>
 
 ```plantuml
