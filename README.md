@@ -20,9 +20,9 @@ Example using C4-PlantUML
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
-!include https://raw.githubusercontent.com/coregen/plantuml-aws-color-palette/master/dist/aws-colors.puml
+!include https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/dist/aws-colors.puml
 
-!define unicornSprite img:https://publicdomainvectors.org/photos/Unicorn-Silhouette-7.png{scale=0.3}
+!define unicornSprite img:https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/unicorn-sprite.png{scale=0.3}
 !define gitSprite img:https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/master/pngs/git.png{scale=1.2}
 
 !$legacy_bg = AWSColor("bg3", "light")
@@ -48,7 +48,7 @@ SHOW_LEGEND()
 @enduml
 ```
 
-![example](https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.png)
+![example](https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg)
 
 ## Available Colors
 
