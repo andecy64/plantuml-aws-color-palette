@@ -17,6 +17,10 @@ by Adrian Simionov.
 
 Example using C4-PlantUML
 
+<p align="center">
+  <img width="248" height="576" src="https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg">
+</p>
+
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
@@ -48,7 +52,6 @@ SHOW_LEGEND()
 @enduml
 ```
 
-![example](https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg)
 
 ## Available Colors
 
