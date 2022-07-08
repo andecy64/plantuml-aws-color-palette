@@ -18,7 +18,7 @@ by Adrian Simionov.
 Example using C4-PlantUML
 
 <p align="center">
-  <img width="248" height="576" src="https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg">
+  <img width="577" height="358" src="https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorns.svg">
 </p>
 
 ```plantuml
@@ -26,7 +26,7 @@ Example using C4-PlantUML
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 !include https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/dist/aws-colors.puml
 
-!define unicornSprite img:https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/unicorn-sprite.png{scale=0.3}
+!define unicornSprite img:https://raw.githubusercontent.com/andecy64/plantuml-aws-color-palette/master/examples/unicorn-sprite.png{scale=0.3}
 !define gitSprite img:https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/master/pngs/git.png{scale=1.2}
 
 !$legacy_bg = AWSColor("bg3", "light")
@@ -47,6 +47,7 @@ Container(legacy_code, "Legacy Code Noodles", "Yakisoba", "Legacy code in the fo
 
 Rel(squad, legacy_code, "Fixing everything", "Horn magic")
 
+LAYOUT_LEFT_RIGHT()
 LAYOUT_WITH_LEGEND()
 SHOW_LEGEND()
 @enduml
